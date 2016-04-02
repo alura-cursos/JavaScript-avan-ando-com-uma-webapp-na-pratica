@@ -6,7 +6,7 @@ for (var index = 0; index < $cards.length; index++) {
     var $this = event.target;
     var $card = this;
 
-    if ($this.classList.contains('card-options')) {
+    if ($this.dataset.color) {
       $card.dataset.color = $this.dataset.color;
 
       for (var position = 0; position < $cardColors.length; position++) {
