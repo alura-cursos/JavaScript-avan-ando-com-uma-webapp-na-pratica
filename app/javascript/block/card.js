@@ -1,5 +1,7 @@
 var $cardColors = document.querySelectorAll('.card-colors');
 
-$cardColors[0].addEventListener('click', function(event) {
-  console.log('Você clicou!!!');
-});
+for (var index = 0; index < $cardColors.length; index++) {
+  $cardColors[index].addEventListener('click', function(event) {
+    console.log('Você clicou!!!');
+  });
+};
