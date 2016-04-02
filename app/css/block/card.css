@@ -5,7 +5,6 @@
   padding: 16px;
   width: 25%;
 }
-
 .card_colorFirst {
   background-color: #45AAEE;
 }
@@ -17,4 +16,25 @@
 }
 .card_colorFourth {
   background-color: #EBEF40;
+}
+
+.card-colors {
+  width: 32px;
+  height: 32px;
+  text-indent: -999px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, .5)
+}
+.card-colors_colorFirst {
+  background-color: #45AAEE; /* Azul */
+}
+.card-colors_colorSecond {
+  background-color: #FF1010; /* Vermelho */
+}
+.card-colors_colorThird {
+  background-color: #76EF40; /* Verde */
+}
+.card-colors_colorFourth {
+  background-color: #EBEF40; /* Amarelo */
 }
