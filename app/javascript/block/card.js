@@ -15,5 +15,9 @@ for (var index = 0; index < $cards.length; index++) {
 
       $this.classList.add('isActive');
     };
+
+    if ($this.classList.contains('card_delete')) {
+      $card.remove();
+    };
   });
 };
