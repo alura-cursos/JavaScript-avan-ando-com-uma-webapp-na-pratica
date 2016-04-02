@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 16px;
   width: 25%;
+  position: relative;
 }
 .card_colorFirst {
   background-color: #45AAEE;
@@ -18,7 +19,13 @@
   background-color: #EBEF40;
 }
 
+.wrap-card-colors {
+  position: absolute;
+  top: -16px;
+  left: 0;
+}
 .card-colors {
+  display: inline-block;
   width: 32px;
   height: 32px;
   text-indent: -999px;
