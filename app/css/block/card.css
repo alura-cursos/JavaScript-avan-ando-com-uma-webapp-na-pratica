@@ -25,6 +25,13 @@
 .card-options.isActive {
   border-width: 4px;
 }
+.card_delete {
+  background-image: url(../../images/delete.svg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FFF;
+}
 
 [data-color="first"] {
   background-color: #45AAEE; /* Azul */
