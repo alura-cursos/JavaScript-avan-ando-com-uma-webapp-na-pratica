@@ -37,6 +37,9 @@
   background-image: url(../../images/edit.svg);
   background-size: 65%;
 }
+.card-content[contenteditable="true"] {
+  outline: 2px dotted rgba(0, 0, 0, 0.5);
+}
 
 [data-color="first"] {
   background-color: #45AAEE; /* Azul */
