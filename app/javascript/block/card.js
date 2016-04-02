@@ -1,12 +1,12 @@
 var $cards = document.querySelectorAll('.card');
-var $cardColors = document.querySelectorAll('.card-colors');
+var $cardColors = document.querySelectorAll('.card-options');
 
 for (var index = 0; index < $cards.length; index++) {
   $cards[index].addEventListener('click', function (event) {
     var $this = event.target;
     var $card = this;
 
-    if ($this.classList.contains('card-colors')) {
+    if ($this.classList.contains('card-options')) {
       $card.dataset.color = $this.dataset.color;
 
       for (var position = 0; position < $cardColors.length; position++) {
