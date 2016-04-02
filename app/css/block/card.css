@@ -6,18 +6,6 @@
   width: 25%;
   position: relative;
 }
-.card_colorFirst {
-  background-color: #45AAEE;
-}
-.card_colorSecond {
-  background-color: #FF1010;
-}
-.card_colorThird {
-  background-color: #76EF40;
-}
-.card_colorFourth {
-  background-color: #EBEF40;
-}
 
 .wrap-card-colors {
   position: absolute;
@@ -33,15 +21,16 @@
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, .5)
 }
-.card-colors_colorFirst {
+
+[data-color="first"] {
   background-color: #45AAEE; /* Azul */
 }
-.card-colors_colorSecond {
+[data-color="second"] {
   background-color: #FF1010; /* Vermelho */
 }
-.card-colors_colorThird {
+[data-color="third"]{
   background-color: #76EF40; /* Verde */
 }
-.card-colors_colorFourth {
+[data-color="fourth"] {
   background-color: #EBEF40; /* Amarelo */
 }
