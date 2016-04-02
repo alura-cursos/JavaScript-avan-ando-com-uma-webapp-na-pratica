@@ -13,6 +13,7 @@
   left: 0;
 }
 .card-colors {
+  box-sizing: border-box;
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -20,6 +21,9 @@
   overflow: hidden;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, .5)
+}
+.card-colors.isActive {
+  border-width: 4px;
 }
 
 [data-color="first"] {
