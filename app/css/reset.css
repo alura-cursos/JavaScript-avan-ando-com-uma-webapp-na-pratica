@@ -4,13 +4,20 @@
   border: none;
   outline: none;
 }
+
 body {
   font-family: 'Verdana', sans-serif;
 }
+
+textarea {
+  font-family: inherit;
+}
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 ul, ol, li {
   list-style: none;
 }
