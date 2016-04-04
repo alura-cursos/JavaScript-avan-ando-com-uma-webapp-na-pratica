@@ -11,6 +11,12 @@
   position: absolute;
   top: -16px;
   left: 0;
+  opacity: 0;
+  
+  transition: opacity 0.2s linear;
+}
+.card:hover .wrap-card-options {
+  opacity: 1;
 }
 .card-options {
   box-sizing: border-box;
